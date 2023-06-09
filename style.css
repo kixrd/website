@@ -1,0 +1,26 @@
+img {margin: 0px;
+border-radius: 50%;}
+
+
+h1, h2, h3 {font-family: sans-serif;
+            text-align: center;
+            margin-top: 10px;
+            color: white;}
+
+body {text-align: center;
+    font-family: sans-serif;
+    background-color: rgb(32,33,36);
+    color: white;
+    }
+
+.atria, .haxi0, .twitter {background-color: white;
+        color: black;
+        font-size: 16px;
+        margin: 10px;
+        border: 0px;
+        padding: 16px;
+        text-align:justify;
+        cursor: pointer;
+        font-size: 40px;
+        position: relative;
+        border-radius: 12px;}
