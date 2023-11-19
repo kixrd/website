@@ -2,29 +2,31 @@ img {margin: 0px;
 border-radius: 50%;}
 
 @font-face {
-    src: url(./montserat.ttf) format('truetype');
-    font-family: 'montserrat';}
+        font-family: 'quicksand';
+        src: url(/quicksand/quicksand-variablefont_wght-webfont.woff) format('woff');
+        src: url(/quicksand/quicksand-variablefont_wght-webfont.woff2) format('woff2');
+}
+
 
 h1, h2, h3 {text-align: center;
             font-family: monospace;
-            font-weight: bolder;
-            margin-top: 10px;
+            margin: 10px;
             font-family: montserrat;
-            color: white;}
+            color: white;
+            font-family: 'quicksand';
+            ;}
 
 body {text-align: center;
-    font-weight: 500;
+    font-family: 'quicksand';
+    font-weight: 550;
     padding: 10px;
-    font-family: monospace;
-    font-family: montserrat;
     background-color: rgb(32,33,36);
     color: white;
     }
 
 .atria, .haxi0, .twitter {background-color: white;
         color: black;
-        font-family: monospace;
-        font-family: montserrat;
+        font-family: 'quicksand';
         font-weight: 600;
         font-size: 25px;
         border: 0px;
